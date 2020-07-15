@@ -1,0 +1,246 @@
+/*
+Dark blue: #30344B;
+Forest green: #28402C;
+Purple: #7C5896;
+Violet: #6673BB;
+Light violet: #A9B0D9;
+Orange: #E87837;
+Rose: #C85256;
+Grey: #DADADA;
+*/
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  width: 120px;
+  float: left;
+  border-top: 2px solid rgba(48, 52, 75, 1)
+}
+
+.new {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  width: 180px;
+  float: none;
+  border-top: 2px solid rgba(48, 52, 75, 1)
+}
+
+.new2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  width: 120px;
+  float: left;
+  border-top: 2px solid rgba(255, 255, 255, 1)
+}
+
+.new3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  width: 250px;
+  float: left;
+  border-top: 2px solid rgba(48, 52, 75, 1)
+}
+
+body {
+    background-color: #DADADA;
+    font-family: 'Georgia';
+    color: #30344B;
+    padding-top:0px;
+    font-size: 14pt;
+}
+
+.toprow {
+  display: flex;
+  background-color: #000000;
+  margin-left: 0%;
+  margin-right: 0%;
+  height: 250px;
+}
+
+
+.container {
+  background-image: url("xray_dif.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  background-position: center;
+  text-align: center;
+  font-size: 13pt;
+  color: #E87837;
+  font-family: 'Helvetica';
+  padding-top: 75px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto;
+  background-color: #DADADA;
+  text-align: center;
+  font-size: 14pt;
+  color: #30344B;
+}
+
+.container2 {
+  background-image: url("UT_primary_orange.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 220px;
+  background-position: left;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#self-ref {
+  color: #28402C; /*4E7FBF;*/
+}
+
+a {
+    color: #142016; /*195073;*/
+}
+
+.topnav {
+    overflow: hidden;
+    top: 100;
+    width: 100%;
+    background-color: #372642;
+    color: #195073;
+    position: relative;
+}
+
+.topnav2 {
+    position: fixed;
+    overflow: hidden;
+    top: 100;
+    width: 100%;
+    background-color: #372642;
+    color: #195073;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #919191;
+  text-align: center;
+  padding: 3px 16px;
+  text-decoration: none;
+  font-size: 32px;
+}
+
+.topnav2 a {
+  float: left;
+  display: block;
+  color: #919191;
+  text-align: center;
+  padding: 3px 16px;
+  text-decoration: none;
+  font-size: 32px;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-center a {
+  float: right;
+  color: #919191;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav-center a:hover {
+  background-color: #A9B0D9;
+  color: #28402C;
+}
+
+/* Add a color to the active/current link */
+.topnav-center a.active {
+  background-color: #E87837;
+  color: #30344B;
+}
+
+
+.row {
+  display: flex;
+  padding-top: 55px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 50px;
+}
+
+.row2{
+  display: flex;
+  background-color: #E89E84;
+  padding-top: 40px;
+  margin-left: 0%;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-right: 0%;
+  padding-bottom: 50px;
+}
+
+.row3 {
+  display: flex;
+  padding-top: 55px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 50px;
+}
+
+.column {
+  flex: 50%;
+}
+
+.hangingindent {
+  padding-left: 25pt;
+  text-indent: -25pt;
+  text-align: left;
+}
+
+.sizer {
+  width: 900px;
+  height: 506.25px;
+}
+
+table {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+}
+
+.cv {
+  width: 100%;
+  margin: 0;
+}
+
+th, td {
+  padding: 15px;
+}
+
+.research-title {
+  font-size: 14pt;
+  font-family: 'Helvetica';
+  color: #AC4B14; /*195073;*/
+}
+
+.research-desc {
+  font-size: 12pt
+}
+
+button {}
+
+.btn-default{
+  color: #28402C;
+  background-color: #E87837;
+}
+
