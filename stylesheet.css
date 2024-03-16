@@ -180,7 +180,6 @@ a {
 
 .row2{
   display: flex;
-  background-color: #E89E84;
   padding-top: 40px;
   margin-left: 0%;
   padding-left: 150px;
@@ -190,6 +189,17 @@ a {
 }
 
 .row3 {
+  display: flex;
+  background-color: #ECAE98;
+  padding-top: 40px;
+  margin-left: 0%;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-right: 0%;
+  padding-bottom: 50px;
+}
+
+.row4 {
   display: flex;
   padding-top: 55px;
   margin-left: 5%;
@@ -234,7 +244,8 @@ th, td {
 }
 
 .research-desc {
-  font-size: 12pt
+  font-size: 12pt;
+  text-align: justify;
 }
 
 button {}
